@@ -25,8 +25,8 @@ public class sadf {
 		System.out.println("두번째 이름을 넣어 주세요>>>");
 		bName = sc.next();
 		
-		System.out.println( a != b );
-		System.out.println(aName.equals(bName));
+		System.out.println("두 번호가 같으면 true, 두 이름이 다르면 false>>>" + (a == b) );
+		System.out.println("두 이름이 같으면 true, 두 이름이 다르면 false>>>" + aName.equals(bName));
 		
 		
 		
