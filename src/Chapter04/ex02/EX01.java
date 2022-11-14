@@ -31,7 +31,6 @@ public class EX01 {
 		default :
 			System.out.println("메달이 없습니다.");
 			break;
-		
 		}
 		
 		

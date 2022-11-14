@@ -38,6 +38,30 @@ public class Ex02 {
 		
 		
 		
+	/*	Scanner sc = new Scanner(System.in);
+	 * int month ;
+	 * int day = 30 ;
+	 * System.out.println("해당 월의 일수를 알려드립니다.");
+	 * month = sc.nextInt();
+	 * 
+	 * switch (month) {
+	 *  case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+	 *  	day += 1;
+	 *  	break;
+	 *  case 2:
+	 *  	day -= 2;
+	 *  	break;
+	 *  default;
+	 *  //case 4: case 6: case 9: case 11: 
+	 *  }
+	 *  System.out.println(month + " 워릉 " + day + "일 입니다.");
+	 *  
+	 *  
+	 *  
+	 *  
+	 *  
+	 */ 
+		
 		
 		
 		

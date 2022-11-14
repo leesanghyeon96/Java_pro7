@@ -60,8 +60,8 @@ public class ex02 {
 		
 		
 	/*	
-	 * int select;		//프로그램을 선택
-	 *
+	   int select;		//프로그램을 선택
+	  
 		
 		int kor;
 		int eng;
