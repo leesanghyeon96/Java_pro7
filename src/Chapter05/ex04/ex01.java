@@ -138,8 +138,8 @@ public class ex01 {
 		
 		
 		}
-		
 		System.out.println(" 프로그램이 종료되었습니다... ");
+		
 		
 		
 		
@@ -198,7 +198,7 @@ public class ex01 {
 			
 			System.out.println("배열방의 크기를 지정하세요.");
 			idx = sc.nextInt();
-
+<<<<<<< HEAD
 			int[] arr1 = new int[idx];
 			int[] arr2 = new int[idx];
 			pos2: for ( int i = 0 ; i<arr1.length; i++) {
@@ -232,7 +232,7 @@ public class ex01 {
 				
 			}
 			
-
+>>>>>>> e646b7fd4a1308ff3c69e512d590c77637bdb254
 		}else if(select ==3){
 				System.out.println("배열방의 크기를 지정해주세요.");
 				idx = sc.nextInt();
@@ -251,7 +251,7 @@ public class ex01 {
 			}
 		} 
 			
-
+<<<<<<< HEAD
 		}else if (select ==4){
 			System.out.println("4. 프로그램 종료");
 			break;
@@ -281,7 +281,7 @@ public class ex01 {
 		
 	*/	
 		//sc.close();
-
+>>>>>>> e646b7fd4a1308ff3c69e512d590c77637bdb254
 	
 	}
 
