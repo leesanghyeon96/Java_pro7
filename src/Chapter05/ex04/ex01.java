@@ -20,116 +20,87 @@ public class ex01 {
 		System.out.println();
 		select =sc.nextInt();
 		
+		do {
+			
+		
+		
+		
 		if (select == 1) {
 			System.out.println("배열방의 크기를 지정하세요.");
 			idx = sc.nextInt();
 			
-			int i = 0;
-			int[] arr1 = new int[idx];
-			
-			for (int a = 1 ; a<arr1.length; a++) {
-				if (a%7==0 || a%8==0) {
+			int i = 0; 		
+			int[] arr1 = new int[idx]; 
+
+			for ( int a = 1 ; a < arr1.length ; a++) { 
+				if ( a % 7 == 0 || a % 8 ==0) {
 					arr1[i] = a;
-					i++;
+					i++; 			
 				}
-				if(i>=arr1.length) {
-					break;
+				if ( i > arr1.length-1 ) {
 				}
 			}	
-		for (i = 0; i<arr1.length ; i++) {
-			System.out.print(arr1[i] + " ");
-		}
+			for ( i = 0 ; i < arr1.length ; i++) {
+				System.out.print( arr1[i] + " ");
+			}
+			
+			
 			System.out.println();
+			
+			
+			
+			
 		} else if (select ==2){
 			
 			System.out.println("배열방의 크기를 지정하세요.");
 			idx = sc.nextInt();
-			
-			
-			
-			
-			
-			
-			
-			
-		}
-			
-	/*		
-			if (select == 2) {
-			int a;
-			System.out.println("배열방의 크기를 지정하세요.");
-			a = sc.nextInt();
-			
-			int[] arr1 = new int [a];
-			for (int i = 0 ; i < arr1.length ; i++) {
-				
+			int[] arr1 = new int[idx];
+			int[] arr2 = new int[idx];
+			pos2: for ( int i = 0 ; i<arr1.length; i++) {
+				arr1[i] = i + 1;
+					for (int i = 0,j = 4; i<arr2.length; i++,j+=4) {
+						arr2[i] = j;
+					}
+					
+						if (arr1[i]==j) {
+							continue pos2;				
+						}
+						
+					}
+			for( int i = 0 ; i<arr1.length;i++) {
+				System.out.print(arr1[i] + " ");
 			}
 			
 			
-			
-			
-			
 		}else if(select ==3){
+				System.out.println("배열방의 크기를 지정해주세요.");
+				idx = sc.nextInt();
+				
+				int[] arr1 = new int[idx];
+				int[] arr2 = new int[idx];
+				pos1 : for(int i = 0,j=6 ; i < arr1.length; i++,j+=6) {
+					arr1[i] = (i + 1)*3;
+					arr2[i] = (i + i)*6;
+					if(arr1==arr2) {
+						continue pos1;
+						
+					}
+			for(int a = 0 ; i < arr1.length; i++) {
+				System.out.print(arr1[i] + " ");
+			}
+		} 
 			
-			
-			
-			
-			
-			
+		}else if (select ==4){
+			System.out.println("4. 프로그램 종료");
+			break;
+		}else {
+			System.out.println("없는 번호입니다.");
 		}
-	*/	
 		
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		int value1;
-		int value2;
-		int value3;
-		int value4;
-		
-		
-		
-		System.out.println("배열방의 크기를 지정해 주세요.");
-		value1 = sc.nextInt();
-		System.out.println("배열방의 크기를 지정해 주세요.");
-		value2 = sc.nextInt();
-		System.out.println("배열방의 크기를 지정해 주세요.");
-		value3 = sc.nextInt();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		}while (true);	
 	
 	}
 
