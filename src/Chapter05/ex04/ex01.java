@@ -281,7 +281,7 @@ public class ex01 {
 		
 	*/	
 		//sc.close();
->>>>>>> e646b7fd4a1308ff3c69e512d590c77637bdb254
+
 	
 	}
 

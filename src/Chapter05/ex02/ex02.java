@@ -45,12 +45,12 @@ public class ex02 {
 		
 		
 		
-/*		
+		
 		System.out.println("=====1. for을 사용해서 출력=====");
-		for (int i = 0 ; i < 500 ; i++) {
-			System.out.print(arr1[i] + " ");
+		for (int i1 = 0 ; i1 < 500 ; i1++) {
+			System.out.print(arr1[i1] + " ");
 		}
-*/		
+		
 		System.out.println();
 		
 		System.out.println("=====2. Enhanced for을 사용해서 출력======");

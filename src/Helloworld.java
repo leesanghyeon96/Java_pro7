@@ -9,10 +9,22 @@ public class Helloworld {
 		 * 여러 라인 주석입니다.
 		 */
 		
-		System.out.println("출력 입니다.");
-		System.out.println("출력 2 입니다.");
-			// syso + <ctrl+spacebar>
-		System.out.println("출력3 입니다.");
+		pose1:for ( int i = 0 ; i < 5 ; i++) {   //pose1 ->LABLE :->점프를 뜻함
+			for ( int j = 0 ; j < 5 ; j++) {
+				if ( j == 2) {
+					break pose1;	
+					
+					
+					
+					
+					
 	}
-
+				System.out.println(i + " , " + j);
+			}
+			
 }
+		
+	}
+}
+		
+		

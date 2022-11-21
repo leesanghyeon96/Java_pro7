@@ -13,11 +13,36 @@ public class ex03 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int a;
-		int b;
+		int idx;
+		
 		
 		System.out.println("두번째 방의 갯수를 입력해주세요.");
-		b = sc.nextInt();
+		idx = sc.nextInt();
+		
+		
+		int[] arr1 = new int[idx];	//2의배수
+		int[] arr2 = new int[idx];	//3의배수
+		
+		for(int i = 0, j =1; i < arr1.length; i++,j++ ) {
+			if( j%2!=0) {
+				continue;
+				
+			}
+			arr1[i] = j;
+		}
+		
+		for(int i= 0 ; i<arr1.length;i++) {
+			System.out.print(arr1[i]);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	/*	
 		
 		//아래 최종
@@ -50,7 +75,7 @@ public class ex03 {
 			
 		
 		//강사님	
-		int idx;       //방의 갯수를 지정받는 변수
+	/*	int idx;       //방의 갯수를 지정받는 변수
 		
 		System.out.println("방의 갯수를 넣어주세요>>>>");
 		idx = sc.nextInt();
@@ -74,7 +99,7 @@ public class ex03 {
 		
 		
 		System.out.println();
-		
+	*/	
 	/*	
 		System.out.println("==for 문을 사용해서 3의 배수 출력 : arr2==");
 		for (int p = 0 ; )
