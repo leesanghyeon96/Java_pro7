@@ -47,6 +47,15 @@ public class Ex01 {
 		arr1[2] = fu3;
 		
 		
+		for (int i = 0 ; i < 3; i++) {
+			  arr1[i].eat();
+		}
+		
+		
+		
+		
+		
+	/*	
 		Fruit a1 = arr1[0];
 		Fruit a2 = arr1[1];
 		Fruit a3 = arr1[2];
@@ -54,7 +63,7 @@ public class Ex01 {
 		a1.eat();
 		a2.eat();
 		a3.eat();
-		
+	*/	
 		
 		
 		

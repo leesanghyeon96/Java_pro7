@@ -3,7 +3,7 @@ package Chapter10.ex03;
 class A {		//부모 클래스 ( super class )
 	
 	void print () {		//인스턴스 메소드 : 메소드 오버라이딩 이 가능하다 (static 메소드는 불가)
-		System.out.println("A클래스의 pring()");
+		System.out.println("A클래스의 print()");
 	}
 }
 class B extends A {		//자식클래스 ( child class )
