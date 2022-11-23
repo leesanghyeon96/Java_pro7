@@ -18,7 +18,7 @@ public class Student {		//public : 다른 패키지에서 사용하려면 필드
 		this.stuAdd = stuAdd;
 	}
 	
-	//메소드 선언 : 필드의 내용을 출력
+	//메소드 선언 : 필드의 내용을 출력 , 객체를 만들어 호출
 	public void print() {
 		System.out.println("학생 이름 : " + stuName);
 		System.out.println("학생 학번 : " + stuNo);

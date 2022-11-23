@@ -8,7 +8,7 @@ class C {
 								//메모리의 클래스 영역에 변수의 값을 저장, Heap영역에는
 								//클래스 영역의 저장된 주소 값만 가진다.
 	//인스턴스필드의 객체는 메모리의 Heap영역에 저장됨
-	//정적필드의 객체의 Heap값은 static의 주소값을 바라본다.
+	//정적필드의 객체의 Heap값은 static의 주소값을 바라본다. 메모리의 class 영역에 저장
 	
 	void print1() {
 		System.out.println(a + " " + b);
