@@ -79,7 +79,6 @@ class Student {	//extends Object가 생략되어있음
 	
 	
 	
-	
 	//toString() 재정의 : 객체의 Heap 메모리의 주소값 출력, hashcode로 출력 (16진수로)
 	//객체 자체를 출력했을때 toString() 가 작동.
 	@Override
@@ -141,19 +140,6 @@ public class Initial_Field01 {
 		System.out.println(s3.getStuID());
 		System.out.println(s3.getStuPhone());
 		System.out.println(s3.getWeight());
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 

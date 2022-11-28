@@ -78,11 +78,6 @@ class Student1 {
 				+ stuPhone + ", weight=" + weight + ", month=" + month + "]";
 	}	
 	
-	
-	
-	
-	
-	
 }
 
 public class Initial_Field02 {
@@ -95,16 +90,7 @@ public class Initial_Field02 {
 		s1.setName("세종대왕");
 		s1.setAge(50);
 		
-		
-		
 		System.out.println(s1);
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 

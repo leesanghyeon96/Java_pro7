@@ -58,15 +58,6 @@ public class Final_Field {
 		b1.a = 10;
 //		b1.b = 20;	//상수 : 값 수정 불가함
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 
 }
