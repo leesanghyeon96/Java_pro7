@@ -31,9 +31,6 @@ public class PrimaryDatatype_VS_ReferenceDataType {
 		System.out.println(arr1);	//Heap 영역의 16진수의 Hash Code <== 메모리 주소값
 		System.out.println(arr2);	//두 메모리 주소가 같다.
 		
-		
-		
-
 	}
 
 }
