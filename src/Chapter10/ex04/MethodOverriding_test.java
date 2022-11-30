@@ -73,6 +73,7 @@ public class MethodOverriding_test {
 		a1.cry();
 		//부모객체를 만들고 자식클래스로 지정하면 오류가 발생함
 		System.out.println("========================");
+		
 		//2. Tiger 객체를 생성하면서 Tiger 타입으로 지정
 		//t1은 Animal, Tiger를 내포하고있고, Tiger 타입으로 지정(Anima,Tiger의 필드,메소드 접근)
 		Tiger t1 = new Tiger();

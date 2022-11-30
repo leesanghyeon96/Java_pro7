@@ -6,8 +6,8 @@ package Chapter07;
 //외부 패키지에서는 접근이 불가. Chapter07 에서만 가능
 
 class Product {		//클래스 : 객체를 생성하기 위한 틀  ==> 객체화를 하기 위한 틀
-			// Prodoct p = new Product();	<== 객체화
-			//// 결국 필드와 메소드를 사용한다.
+			// Product p = new Product();	<== 객체화
+			// 결국 필드와 메소드를 사용한다.
 	//1. 필드 : 객체가 가지는 속성값
 	String proName;		//제품이름
 	int proNo;			//제품번호

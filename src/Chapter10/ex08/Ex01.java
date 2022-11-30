@@ -81,13 +81,17 @@ public class Ex01 {
 			System.out.println(k);
 		}
 		System.out.println("===================");
-		arr[0].run();
-		arr[1].run();
-		arr[2].run();
-		arr[3].run();
-		arr[4].run();
-		arr[5].run();
-		arr[6].run();
+		for(int i = 0; i< arr.length; i++) {
+			arr[i].run();
+		}
+		
+	//	arr[0].run();
+	//	arr[1].run();
+	//	arr[2].run();
+	//	arr[3].run();
+	//	arr[4].run();
+	//	arr[5].run();
+	//	arr[6].run();
 		
 		
 		
