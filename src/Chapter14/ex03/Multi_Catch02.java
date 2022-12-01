@@ -20,8 +20,8 @@ public class Multi_Catch02 {
 			
 			//try 블락에서 어떤 예외가 발생되었는지 알 수 있도록 출력
 			System.out.println(e.getMessage());		//간략한 정보를 출력
-			e.printStackTrace();		//자세한 정보를 출력
-			
+			e.printStackTrace();		//자세한 정보를 출력 , 오류에 대한 내용을 출력해라
+				//디버깅하기 위해 , 보통 주석처리를 해놓음
 		}
 		
 		

@@ -14,7 +14,7 @@ public class TryWithResource01 {
 		//1. 리소스 수동 해제 : finally 블락에서 객체를 close() 메소드를 호출해서 객체를 메모리에서 제거
 		
 		//콘솔을 사용해서 문자열을 입력 받도록 하는 클래스 : InputStreamReader
-		InputStreamReader ir1 = null;
+		InputStreamReader ir1 = null;	//객체선언 (하면 종료시켜야함)
 		
 		//일반예외 (catched Exception)	: 프로그램 작성시 컴파일 단계에서 오류
 		   //반드시 예외를 처리해야한다.
@@ -22,9 +22,9 @@ public class TryWithResource01 {
 				//메소드 블락에서 적용됨 , 메소드를 호출하는 곳에서 예외 처리를 해야함
 			// 2. 예외를 내가 처리	: try - catch 블락을 만들어서 내가 처리
 		
-		ir1 = new InputStreamReader(System.in);
+		ir1 = new InputStreamReader(System.in);	
 		//예외를 내가 처리
-		try {
+		try {		//IOException 발생
 			char input = (char) ir1.read();		//예외처리가 되어야함. 일반예외 : IOException
 			System.out.println("입력한 글자는 : " + input);
 			
@@ -44,7 +44,7 @@ public class TryWithResource01 {
 					e.printStackTrace();
 				}
 			}
-		}
+		}	//자동종료 TryWithResource02
 		
 		
 		

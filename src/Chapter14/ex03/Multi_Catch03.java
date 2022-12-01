@@ -31,6 +31,7 @@ public class Multi_Catch03 {
 		
 		*/
 		
+		//모든 예외는 (Exception e)에서 받기때문에 세부적인 Exception을 컨트롤하기위해 (Exception e)은 마지막에 둔다.
 		
 		try {
 			System.out.println(3 / 0);	//실행 예외 : ArithmeticException

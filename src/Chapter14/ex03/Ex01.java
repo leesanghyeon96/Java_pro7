@@ -48,10 +48,11 @@ public class Ex01 {
 		} catch (ArithmeticException | ArrayIndexOutOfBoundsException | NumberFormatException e) {
 			// 코드없어도됨
 			System.out.println("모든 예외를 하나의 블락에서 처리");
+			
 			System.out.println(e.getMessage());
 			// e.getMessage() <== Exception의 간단한 정보를 출력(리턴으로 돌아옴)
 			e.printStackTrace(); // <== 예외의 세부적인 정보를 출력(어떤 Exception로 떨어졌는지)
-
+			
 			// System.out.println("0으로 나누어지지 않습니다. 오류를 확인해주세요.");
 			// System.out.println("배열의 방의 개수가 맞지 않습니다. 오류를 확인해주세요.");
 			// System.out.println("숫자로 변환할 수 없습니다. 오류를 확인해주세요.");
