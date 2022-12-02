@@ -37,7 +37,7 @@ public class GenericMethod {
 		String str2 = gm.method1("하세요");	//<String>생략 : 뒤의 인풋값으로 타입을 유추할 수 있는 경우
 		System.out.println(str1);
 		System.out.println(str2);
-		
+			//인풋값이 없는경우 : <>을 생략하면 안된다.
 		
 		Integer int1 = gm.<Integer>method1(100);
 		Integer int2 = gm.method1(200);

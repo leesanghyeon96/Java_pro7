@@ -11,7 +11,7 @@ class Goods1{	//상품클래스, Apple 상품을 담는 클래스
 	//getter : apple 참조변수 값을 가져올때 사용
 	//setter : apple 참조변수의 다른 값을 할당할때 사용
 	private Apple apple = new Apple();	
-	//private는 외부에서 값을 수정이 불가해 getter, setter로 수정한다.
+		//private는 외부에서 값을 수정이 불가해 getter, setter로 수정한다.
 	
 	
 	//getter : 필드의 값을 리턴으로 돌려줌 (get뒤에 첫자 대문자)
