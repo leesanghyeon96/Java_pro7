@@ -20,18 +20,7 @@ public class Ex01 {
 		
 		System.out.println((value1%2 < 1) ? "짝수" : "홀수"); 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }

@@ -6,7 +6,7 @@ public class Argument_Of_Mainmethod {
 
 	public static void main(String[] args) {	//args : String의 값을 담는 배열변수
 		// main Method 로 배열의 값 인풋 하기
-		
+			
 		//1. args : main 메소드로 String[] 배열을 담은 [배열]변수
 		System.out.println(args.length);	//args 배열의 방의 갯수
 		System.out.println();
@@ -45,21 +45,7 @@ public class Argument_Of_Mainmethod {
 		int h = Integer.parseInt(d);
 		
 		System.out.println(e + f + g + h);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }

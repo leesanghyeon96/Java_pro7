@@ -7,7 +7,7 @@ class Ab{
 	//필드 : 인스턴스 필드 : 객체를 생성해야 호출할 수 있다.
 	int m;
 	int n;
-	int l;
+	int l;	
 	
 	// this 키 : 자신의 객체의 필드
 	

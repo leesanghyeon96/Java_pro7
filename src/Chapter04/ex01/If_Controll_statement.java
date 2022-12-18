@@ -96,15 +96,7 @@ public class If_Controll_statement {
 		}else {
 			System.out.println("정확한 점수가 아닙니다. 0 ~ 100까지만 넣어주세요");
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 	}
 

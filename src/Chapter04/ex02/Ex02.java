@@ -55,19 +55,10 @@ public class Ex02 {
 	 *  //case 4: case 6: case 9: case 11: 
 	 *  }
 	 *  System.out.println(month + " 워릉 " + day + "일 입니다.");
-	 *  
-	 *  
-	 *  
-	 *  
-	 *  
+
 	 */ 
 		
-		
-		
-		
-		
-		
-		
+
 		
 	}
 

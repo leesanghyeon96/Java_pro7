@@ -17,13 +17,7 @@ public class A_test {
 		a1.cde();	//default
 	//	a1.def();	//private - 접근 불가
 			
-		
-		
-		
-		
-		
-		
-		
+
 	}
 
 }

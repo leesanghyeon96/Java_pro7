@@ -13,7 +13,7 @@ public class Array_Input_Output {
 		
 		//직접 해당 방 번호에 값을 할당
 		arr1[0] = 10;
-		arr1[1] = 20;
+		arr1[1] = 20;	
 		arr1[2] = 30;
 		arr1[3] = 40;
 		arr1[4] = 50;
